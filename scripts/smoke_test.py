@@ -12,7 +12,7 @@ client = OpenAI(
 response = client.chat.completions.create(
     model="openai/gpt-4o-mini",
     messages=[
-        {"role": "user", "content": "Responde en una frase: ¿qué es una póliza de seguro"}
+        {"role": "user", "content": "Responde en una frase: ¿qué es una póliza de seguro?"}
     ],
 )
 
